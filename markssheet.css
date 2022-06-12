@@ -4,7 +4,7 @@ div.markssheet{
     position: absolute;
     top: calc(5vh);
     left: calc(20vw);
-    height: calc(150vh);
+    height: calc(130vh);
     width: calc(60vw);
     border: 2px solid black;
     /* background-color: lightblue; */
@@ -141,9 +141,9 @@ div.note{
 div.table{
     display: flex;
     position: absolute;
-    top: calc(55vh);
+    top: calc(50vh);
     left: calc(2vw);
-    height: calc(70vh);
+    height: calc(58vh);
     width: calc(56vw);
     border: 1px solid black;
 }
@@ -211,9 +211,10 @@ div.mrkobt{
     left: calc(0vw);
     height: calc(5vh);
     width: calc(12vw);
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     font-weight: bolder;
     text-indent: 10px;
+    text-indent: 9px;
 }
 div.nineth{
     display: flex;
@@ -222,7 +223,8 @@ div.nineth{
     left: calc(0vw);
     height: calc(5vh);
     width: calc(6vw);
-    border: 1px solid black;
+    border-right: 1px solid black;
+    text-indent: 18px;
 }
 div.tenth{
     display: flex;
@@ -231,7 +233,8 @@ div.tenth{
     left: calc(6vw);
     height: calc(5vh);
     width: calc(6vw);
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    text-indent: 15px;
 }
 div.total{
     display: flex;
@@ -241,6 +244,10 @@ div.total{
     height: calc(10vh);
     width: calc(7vw);
     border: 1px solid black;
+    font-size: 110%;
+    font-weight: bold;
+    line-height: 30px;
+    text-indent: 5px;
 }
 div.percentage{
     display: flex;
@@ -250,6 +257,10 @@ div.percentage{
     height: calc(10vh);
     width: calc(7vw);
     border: 1px solid black;
+    /* font-size: 10%; */
+    font-weight: bold;
+    line-height: 60px;
+    text-indent: 1px;
 }
 div.grade{
     display: flex;
@@ -259,6 +270,10 @@ div.grade{
     height: calc(10vh);
     width: calc(5vw);
     border: 1px solid black;
+    font-size: 110%;
+    font-weight: bold;
+    line-height: 60px;
+    text-indent: 5px;
 }
 div.srnolist{
     display: flex;
@@ -893,21 +908,40 @@ div.gradetotal{
     text-indent: 15px;
     font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+div.note1{
+    display: flex;
+    position: absolute;
+    top: calc(115vh);
+    left: calc(2vw);
+    height: calc(15vh);
+    width: calc(56vw);
+    /* border: 1px solid black; */
+}
+div.notehd{
+    display: flex;
+    position: absolute;
+    top: calc(2vh);
+    left: calc(1vw);
+    height: calc(5vh);
+    width: calc(7vw);
+    /* border: 1px solid black; */
+    font-weight: bolder;
+    color: red;
+    font-size: 140%;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.noteline{
+    display: flex;
+    position: absolute;
+    top: calc(2.5vh);
+    left: calc(7.5vw);
+    height: calc(10vh);
+    width: calc(48vw);
+    /* border: 1px solid black; */
+    font-size: 100%;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
