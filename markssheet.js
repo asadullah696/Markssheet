@@ -1,6 +1,4 @@
-// var a = Array 
-// var practice = document.getElementById("name");
-// document.write.getElementById("second").innerText = a ;
+// Marksheet with Java_Script
 
 var rollNo = parseInt(prompt("Enter Your Roll No"));
 document.getElementById('rollno').innerText = rollNo;
@@ -11,7 +9,7 @@ document.getElementById("name").innerText = userName;
 var fatherNAme = prompt("Enter Your Father Name");
 document.getElementById("fathername").innerText = fatherNAme;
 
-var dob = parseInt(prompt("Enter Your Date of Birth"));
+var dob = (prompt("Enter Your Date of Birth"));
 document.getElementById("dob").innerText = dob;
 
 var urdu1 = parseInt(prompt("Enter your 9th class Urdu Marks"));
